@@ -10,20 +10,20 @@ Este proyecto implementa dos algoritmos de clasificación, Random Forest y Regre
 # 1.- Regresión Logística
 El modelo de regresión logística fue implementado desde cero, sin el uso de frameworks o bibliotecas especializadas, con el objetivo de explorar y profundizar en los fundamentos matemáticos del algoritmo.
 
-Características principales:
-Implementación manual del cálculo de probabilidades mediante la función sigmoide y optimización de los pesos utilizando gradiente descendente.
-Transformaciones previas en las características (como normalización) para asegurar un mejor rendimiento del algoritmo.
-Evaluación de las métricas estándar de clasificación, como precisión, recall y F1-score, a partir de la salida probabilística generada.
-Este modelo fue diseñado para brindar una comprensión conceptual sólida del proceso detrás de la clasificación binaria.
+## Características principales:
+- Implementación manual del cálculo de probabilidades mediante la función sigmoide y optimización de los pesos utilizando gradiente descendente.
+- Transformaciones previas en las características (como normalización) para asegurar un mejor rendimiento del algoritmo.
+- Evaluación de las métricas estándar de clasificación, como precisión, recall y F1-score, a partir de la salida probabilística generada.
+- Este modelo fue diseñado para brindar una comprensión conceptual sólida del proceso detrás de la clasificación binaria.
 
 # 2.- Random Forest
 
 El modelo Random Forest se implementó utilizando la biblioteca scikit-learn, aprovechando su capacidad para construir un conjunto de árboles de decisión y obtener predicciones más robustas a partir de su agregación.
 
-Características principales:
-Sobremuestreo y submuestreo de los datos usando la técnica SMOTEENN para manejar clases desbalanceadas.
-Uso de hiperparámetros configurados para controlar el crecimiento de los árboles y reducir el riesgo de sobreajuste, como max_depth, min_samples_split, y min_samples_leaf.
-Generación de métricas como AUC, precisión, recall, y gráficas de desempeño (Curvas ROC y Precision-Recall).
+## Características principales:
+- Sobremuestreo y submuestreo de los datos usando la técnica SMOTEENN para manejar clases desbalanceadas.
+- Uso de hiperparámetros configurados para controlar el crecimiento de los árboles y reducir el riesgo de sobreajuste, como max_depth, min_samples_split, y min_samples_leaf.
+- Generación de métricas como AUC, precisión, recall, y gráficas de desempeño (Curvas ROC y Precision-Recall).
 
 # Información del Dataset: Campañas de Marketing Directo de una Institución Bancaria Portuguesa
 
