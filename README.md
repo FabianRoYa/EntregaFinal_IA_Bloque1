@@ -3,7 +3,7 @@ En este repositorio se recolectan las evidencias del Bloque 1 de la unida de for
 
 [Video demostrativo del input de usruario a los modelos.](https://drive.google.com/drive/folders/112iQyrfrXzM40Cu9sH4jqRNaxReGAR5Q?usp=sharing)
 
-#Propósito del Proyecto:
+# Propósito del Proyecto:
 
 Este proyecto implementa dos algoritmos de clasificación, Random Forest y Regresión Logística, con el objetivo de resolver un problema de clasificación binaria en el mismo conjunto de datos. Cada algoritmo fue diseñado e implementado para cumplir este propósito desde enfoques diferentes, destacando tanto el uso de herramientas avanzadas como la comprensión fundamental de los métodos.
 
@@ -52,9 +52,6 @@ Las campañas de marketing se basaron en llamadas telefónicas, donde a menudo e
 - **Variable objetivo:** Determinar si el cliente suscribirá un depósito a plazo (`sí/no`).
 
 Este dataset proporciona información valiosa para el análisis y la modelización de estrategias de marketing directo y predicción de comportamiento del cliente.
-
-
-
 
 ## Referencia
 
