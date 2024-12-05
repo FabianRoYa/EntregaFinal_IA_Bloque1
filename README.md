@@ -7,26 +7,6 @@ En este repositorio se recolectan las evidencias del Bloque 1 de la unida de for
 
 Este dataset contiene información relacionada con campañas de marketing directo realizadas por una institución bancaria en Portugal. Las campañas se basaron en llamadas telefónicas, donde en muchos casos se contactó más de una vez al mismo cliente para evaluar si este suscribiría (respuesta 'sí') o no ('no') un depósito a plazo.
 
-## Conjuntos de Datos Incluidos
-
-El dataset incluye cuatro versiones distintas:
-
-1. **`bank-additional-full.csv`**
-   - Contiene todos los ejemplos (41,188) y 20 variables de entrada.
-   - Los datos están ordenados cronológicamente (desde mayo de 2008 hasta noviembre de 2010).
-   - Esta versión es muy similar a la utilizada en el análisis de [Moro et al., 2014].
-
-2. **`bank-additional.csv`**
-   - Incluye el 10% de los ejemplos de `bank-additional-full.csv` (4,119 registros), seleccionados aleatoriamente.
-   - Contiene las mismas 20 variables de entrada.
-
-3. **`bank-full.csv`**
-   - Contiene todos los ejemplos (41,188) pero con 17 variables de entrada (una versión anterior del dataset con menos atributos).
-   - Los datos también están ordenados cronológicamente.
-
-4. **`bank.csv`**
-   - Contiene el 10% de los ejemplos de `bank-full.csv` (4,119 registros), seleccionados aleatoriamente.
-   - Incluye las mismas 17 variables de entrada.
 
 ### Propósito de las Diferentes Versiones
 - Los conjuntos de datos más pequeños (`bank-additional.csv` y `bank.csv`) están diseñados para probar algoritmos de aprendizaje automático que requieren mayor capacidad computacional, como las Máquinas de Vectores de Soporte (SVM).
@@ -34,6 +14,20 @@ El dataset incluye cuatro versiones distintas:
 ## Objetivo de Clasificación
 
 El objetivo principal es predecir si un cliente suscribirá o no un depósito a plazo (variable `y`).
+
+# Información Adicional
+
+Este conjunto de datos está relacionado con campañas de marketing directo realizadas por una institución bancaria en Portugal. 
+
+Las campañas de marketing se basaron en llamadas telefónicas, donde a menudo era necesario realizar más de un contacto con el mismo cliente para determinar si suscribiría (`sí`) o no (`no`) un depósito a plazo.
+
+## Contexto del Dataset
+
+- **Propósito:** Evaluar la eficacia de las campañas de marketing telefónicas.
+- **Variable objetivo:** Determinar si el cliente suscribirá un depósito a plazo (`sí/no`).
+
+Este dataset proporciona información valiosa para el análisis y la modelización de estrategias de marketing directo y predicción de comportamiento del cliente.
+
 
 ## Referencia
 
