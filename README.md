@@ -53,6 +53,24 @@ Las campañas de marketing se basaron en llamadas telefónicas, donde a menudo e
 
 Este dataset proporciona información valiosa para el análisis y la modelización de estrategias de marketing directo y predicción de comportamiento del cliente.
 
+# Preprocesamiento de Datos
+Para garantizar la calidad del análisis, se aplicaron técnicas de preprocesamiento al conjunto de datos original, incluyendo:
+
+## Transformaciones de características:
+
+- Normalización de valores continuos para estandarizar su rango.
+- Escalamiento de las características utilizando técnicas como estandarización.
+- Codificación de variables categóricas (one-hot encoding) para hacerlas compatibles con los modelos.
+- Winsorización de valores extremos para manejar outliers, limitando las características dentro de un rango predefinido.
+
+##Manejo de clases desbalanceadas:
+
+- Uso de la técnica SMOTEENN para equilibrar las clases al combinar sobremuestreo de la clase minoritaria con submuestreo de la clase mayoritaria.
+  
+## División temporal de los datos:
+
+- El dataset se dividió en conjuntos de entrenamiento y prueba, asegurando la estratificación para preservar la distribución original de las clases.
+
 ## Referencia
 
 [Dataset Original](https://archive.ics.uci.edu/dataset/222/bank+marketing)
